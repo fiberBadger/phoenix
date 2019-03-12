@@ -1,0 +1,53 @@
+
+
+*{
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding-top: 25vh;
+}
+
+.nav-item{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.main-nav{
+}
+
+.container{
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.column{
+    float:left;
+    width: 25%;
+}
+
+.col-6{
+    max-width: 50%;
+}
+
+.col-3{
+    max-width: 33.333%;
+    padding: 1%;
+    text-align: center;
+}
+
+.mb-15{
+    margin-bottom: 15vh;
+}
+
+.hero{
+}
+
+.row:after{
+    content:'';
+    display: table;
+    clear: both;
+}
